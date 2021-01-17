@@ -22,7 +22,7 @@ que será utilizado por um Leitor para ler ler o arquivo e gerar a nossa classe 
 
 O diagrama de classes ilustra a implementação desta funcionalidade.
 
-<div style="background-color:white">
+<div style="background-color:#fff">
     <img alt="Diagrama" src="./Docs/Diagrama de classes.png">
 </div>
 
@@ -71,7 +71,7 @@ Para cada formato de arquivo o valor desses campos mudam. Por exemplo para arqui
 Para estes casos podemos definir uma expressão regular ou interna para interpretar tais informações por exempla usar o caracter ">" para indicar o caminho.
 Resultando "object>Fatura>Valor Total>Valor"
 
-<img alt="Interpreter" src="./Docs/Interpreter.jpg">
+<img alt="Interpreter" src="./Docs/Interpreter.JPG">
 
 ## Escalabilidade
 
@@ -82,7 +82,7 @@ Para escalarmos a aplicação, seria necessário:
 1. Adaptar o código para trabalhar com arquivos muito grandes, processar linha por linha do arquivo, sem carregá-lo por completo na memória (algo que já acontece). usando multiplas threads se possível. Entretanto podemos melhorar ainda mais o algoritmo pois ele trabalha com strings e maném os valores da linha lida por muito tempo.
 1. O método Traduzir retorna uma lista de Conta, isso teria que ser mudado para que cada conta lida, seja persistida no banco ou no arquivo de envio, atráves de uma chamada para registro do item.
 
-<img alt="EnviarConta" src="./Docs/EnviarConta.jpg">
+<img alt="EnviarConta" src="./Docs/EnviarConta.JPG">
 
 ## Finalizando
 
