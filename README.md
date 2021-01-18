@@ -22,9 +22,7 @@ que será utilizado por um Leitor para ler ler o arquivo e gerar a nossa classe 
 
 O diagrama de classes ilustra a implementação desta funcionalidade.
 
-<div style="background-color:#fff">
-    <img alt="Diagrama" src="./Docs/Diagrama de classes.png">
-</div>
+<img alt="Diagrama" src="./Docs/Diagrama de classes.JPG">
 
 A interface IConversor contém o comportamento obriatório dos leitores.
 
